@@ -1,0 +1,30 @@
+{
+    "name": "11ty test single site",
+    "description": "Eleventy is a simpler static site generator.",
+    "canonical": "http://localhost:8080",
+    "og": {
+        "url": "http://localhost:8080",
+        "title": "11ty test single site",
+        "description": "11ty test single site",
+        "image": "http://localhost:8080/img/bg-masthead.jpg"
+    },
+    "twitter": {
+        "site": "XXXXXXXXXXXXX",
+        "creator": "XXXXXXXXXXXXX",
+        "card": "summary_large_image",
+        "image": "http://localhost:8080/img/bg-masthead.jpg"
+    },
+    "schema": {
+        "name": "11ty test single site",
+        "publisher": {
+            "name": "ABCDEFG,LLC.",
+            "logo": {
+                "url": "http://localhost:8080/img/brand_logo.png"
+            }
+        },
+        "copyrightYear": "2019-01-02T10:50:37+0000",
+        "headline": "11ty test single site",
+        "description": "Eleventy is a simpler static site generator.",
+        "url": "http://localhost:8080"
+    }
+}

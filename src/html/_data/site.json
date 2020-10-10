@@ -1,5 +1,51 @@
 {
     "name": "11ty test single site",
-    "description": "11tyを活用したシングルページテンプレートです。",
-    "url": "http://11ty.sample.single.com"
+    "description": "Eleventy is a simpler static site generator.",
+    "url": "http://localhost:8080",
+    "section1":{
+        "point1":{
+            "title": "Flexible configuration options",
+            "description": "Eleventy works with your project’s existing directory structure."
+        },
+        "point2":{
+            "title": "Migration easier",
+            "description": "Eleventy uses independent template engines."
+        },
+        "point3":{
+            "title": "Works with multiple",
+            "description": "Eleventy works with multiple template languages."
+        }
+    },
+    "section2":{
+        "point1":{
+            "title": "Flexible configuration options",
+            "description": "Eleventy was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options. Eleventy works with your project’s existing directory structure."
+        },
+        "point2":{
+            "title": "Migration easier",
+            "description": "Eleventy uses independent template engines. We don’t want to hold your content hostage. If you decide to use something else later, having your content decoupled in this way will make migration easier."
+        },
+        "point3":{
+            "title": "Works with multiple",
+            "description": "Eleventy works with multiple template languages. You can pick one or use them all together in a single project"
+        }
+    },
+    "section3":{
+        "message": "What people are saying...",
+        "member1":{
+            "name": "Margaret E.",
+            "saying": "This is fantastic! Thanks so much guys!"
+        },
+        "member2":{
+            "name": "Fred S.",
+            "saying": "Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
+        },
+        "member3":{
+            "name": "Sarah W.",
+            "saying": "Thanks so much for making these free resources available to us!"
+        }
+    },
+    "section4":{
+        "message": "Ready to get started? Click now!"
+    }
 }

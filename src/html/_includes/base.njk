@@ -3,11 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ site.description }}">
+
   <meta name="author" content="">
 
   <title>{{ site.name }}</title>
-
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ seo.canonical }}">
+  <link rel="alternate" hreflang="ja-JP" href="{{ seo.url }}">
+  <meta name="description" content="{{ seo.description }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ seo.og.url }}">
+  <meta property="og:title" content="{{ seo.og.title }}">
+  <meta property="og:description" content="{{ seo.og.description }}">
+  <meta property="og:image" content="{{ seo.og.image }}">
+  <meta property="twitter:site" content="{{ seo.twitter.site }}">
+  <meta property="twitter:creator" content="{{ seo.twitter.creator }}">
+  <meta property="twitter:card" content="{{ seo.twitter.card }}">
+  <meta property="twitter:image:src" content="{{ seo.twitter.image }}">
+  <script type="application/ld+json">
+  {
+    "@context":"http://schema.org",
+    "@type":"website",
+    "name":"{{ seo.schema.name }}",
+    "inLanguage":"jp",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ seo.schema.publisher.name }}",
+      "logo": {
+          "@type": "ImageObject",
+          "url": "{{ seo.schema.publisher.logo.url }}"
+      }
+    },
+    "copyrightYear":"{{ seo.schema.copyrightYear }}",
+    "headline":"{{ seo.schema.headline }}",
+    "description":"{{ seo.schema.description }}",
+    "url":"{{ seo.schema.url }}"
+  }
+  </script>
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="{{ '/vendor/bootstrap/css/bootstrap.min.css' | url }}">
   <!-- Custom styles for this template -->
@@ -26,7 +58,6 @@
  
     <main>
     {% block main -%}
-    コンテンツ
     {%- endblock %}
     </main>
     
